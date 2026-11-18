@@ -38,6 +38,7 @@ use Liberu\Payment\Contracts\DTOs\SettlementTransactionDto;
 use Liberu\Payment\Contracts\DTOs\SubmitDisputeEvidenceCommand;
 use Liberu\Payment\Contracts\DTOs\TerminalPaymentResultDto;
 use Liberu\Payment\Contracts\DTOs\VaultedPaymentMethodDto;
+use Liberu\Payment\Contracts\DTOs\VoidPaymentCommand;
 use Liberu\Payment\Contracts\Enums\PaymentLifecycleState;
 use Stripe\StripeClient;
 use Stripe\Webhook;
